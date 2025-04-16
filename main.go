@@ -16,7 +16,7 @@ import (
 const (
 	fullURL    = `https://www.tesla.com/inventory/api/v4/inventory-results?query=%7B%22query%22%3A%7B%22model%22%3A%22m3%22%2C%22condition%22%3A%22used%22%2C%22options%22%3A%7B%22TRIM%22%3A%5B%22LRAWD%22%2C%22LRRWD%22%5D%2C%22Year%22%3A%5B%222021%22%2C%222022%22%2C%222023%22%2C%222024%22%5D%7D%2C%22arrangeby%22%3A%22Price%22%2C%22order%22%3A%22asc%22%2C%22market%22%3A%22DE%22%2C%22language%22%3A%22de%22%2C%22super_region%22%3A%22north%20america%22%2C%22lng%22%3A11.0262%2C%22lat%22%3A49.3257%2C%22zip%22%3A%2291126%22%2C%22range%22%3A0%2C%22region%22%3A%22BY%22%7D%2C%22offset%22%3A0%2C%22count%22%3A24%2C%22outsideOffset%22%3A0%2C%22outsideSearch%22%3Afalse%2C%22isFalconDeliverySelectionEnabled%22%3Afalse%2C%22version%22%3Anull%7D`
 	ntfyURL    = "https://ntfy.sh/tesla-alerts-23d47c8d601fc648fe171a2ddb60b0da"
-	priceLimit = 28000
+	priceLimit = 27000
 	seenFile   = "seen.json"
 )
 
