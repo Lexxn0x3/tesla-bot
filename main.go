@@ -48,6 +48,7 @@ type TeslaCar struct {
 var seenCars = make(map[string]float64)
 
 func main() {
+  println("running....")
 	loadSeen()
 	for {
 		checkInventory()
